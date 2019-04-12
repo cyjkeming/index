@@ -1,0 +1,61 @@
+{
+    "title": "老车的主页",
+    "description": "My Homepage",
+    "author": "Che Yujie",
+    "output.name": "site",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Home": "http://www.cheyujie.top"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+		"prism",
+        "prism-themes",
+        "livereload",
+        "search-plus",
+        "github",
+        "splitter",
+        "-sharing",
+        "sharing-plus"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+		"prism": {
+            "css": [
+                "prism-themes/themes/prism-cb.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/cyjkeming"
+        },
+        "sharing": {
+           "douban": false,
+           "facebook": false,
+           "google": false,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": false,
+           "messenger": false,
+           "pocket": false,
+           "qq": false,
+           "qzone": false,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": false,
+           "whatsapp": false,
+           "all": [
+               "twitter", "facebook", "linkedin",
+               "weibo", "douban"
+           ]
+       }
+    }
+}
